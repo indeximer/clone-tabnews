@@ -30,5 +30,6 @@ export default async function migrations(req, res) {
     res.status(200).json(migratedMigrations);
   }
 
+  console.log("test");
   return res.status(405).end();
 }
